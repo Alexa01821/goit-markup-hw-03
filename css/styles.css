@@ -60,8 +60,8 @@ body {
 }
 
 /* ---------------------------------HEADER-------------------------------- */
-.header {
-  padding-top: 24px;
+.header{
+  border-bottom: 1px solid var(--color-cornflower); 
 }
 
 .header-container {
@@ -69,7 +69,6 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid var(--color-cornflower);
 }
 
 .header-nav {
@@ -138,11 +137,6 @@ body {
   background-color: var(--color-navy-blue);
 }
 
-.hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .hero-title {
   max-width: 496px;
   font-size: 56px;
@@ -161,9 +155,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-white);
   background-color: var(--color-iris);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  border: 0;
   padding: 16px 32px;
   margin: 0 auto;
 }
@@ -214,8 +208,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
-  padding-bottom: 72px;
-}
+margin-bottom: 72px;}
 
 .works-list {
   display: flex;
@@ -337,6 +330,7 @@ body {
 .filters-btn:focus {
   color: var(--color-white);
   background: var(--color-ocean);
+  border: 1px solid var(--color-ocean);
 }
 
 /* ---------------------------------PORTFOLIO EXEMPLE-------------------------------- */
